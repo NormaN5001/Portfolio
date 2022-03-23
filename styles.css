@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	color: white;
+	list-style: none;
+	font-family: 'DM Sans', sans-serif;
+	text-decoration: none;
+}
+body{
+	background-color: #0C0C0C;
+	margin: 0 10vw 0 10vw;
+}
+header{
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header p{
+	font-size: 3vh;
+	font-weight: 700;
+	color: #F9F9F9;
+}
+ul{
+	display: flex;
+}
+ul li{
+	margin-left: 70px;
+	font-size: 2vh;
+	font-weight: 400;
+	color: #F9F9F9;
+}
+.presentation{
+	position: relative;
+	margin-top: 7vh;
+	width: 100%;
+}
+.presentation h1{
+	font-size: 4vh;
+	font-weight: 700;
+	color: #F9F9F9;
+}
+.presentation p{
+	margin-top: 20px;
+	font-size: 2vh;
+	font-weight: 500;
+	color: #828282;
+}
+.download{
+	margin-top: 30px;
+	background-color: #00DF5E;
+	width: 10vw;
+	height: 42px;
+	border-style: none;
+	color: #171717;
+	font-weight: 700;
+	font-size: 1.5vh;
+}
+.contact{
+	margin-top: 30px;
+	margin-left: 10px;
+	background-color: #171717;
+	width: 7vw;
+	height: 42px;
+	border-style: none;
+	border: 1px solid #333333;
+	color: #F9F9F9;
+	font-weight: 500;
+	font-size: 1.3vh;
+}
+.presentation img{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.aboutme{
+	margin-top: 200px;
+	width: 100%;
+}
+.aboutme h2{
+	text-align: center;
+	font-size: 3.7vh;
+	font-weight: 700;
+	color: #F9F9F9;
+}
+.aboutme-text{
+	margin-left: 10vw;
+	text-align: center;
+	width: 60vw;
+	font-size: 2vh;
+	font-weight: 400;
+	color: #828282;
+}
+.networks{
+	margin-top: 70px;
+	width: 60vw;
+	margin-left: 10vw;
+	display: flex;
+	justify-content: space-between;
+}
+.items{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.items img{
+	width: 62px;
+	height: 62px;
+}
+.items h3{
+	margin-top: 20px;
+	font-size: 2vh;
+	color: #F9F9F9;
+	font-weight: 700;
+}
+.items p{
+	margin-top: 5px;
+	font-size: 1.6vh;
+	font-weight: 400;
+	color: #828282;
+}
+.projects{
+	border: 3px solid cyan;
+	height: 50vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.project-text{
+	margin-top: 150px;
+	text-align: center;
+	font-size: 3.7vh;
+	font-weight: 700;
+	color: #F9F9F9;
+}
+.project{
+	width: 25vw;
+	height: 150px;
+	border: 2px solid red;
+}
