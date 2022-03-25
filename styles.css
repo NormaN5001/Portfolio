@@ -94,16 +94,19 @@ ul li{
 	color: #828282;
 }
 .networks{
-	margin-top: 70px;
+	margin-top: 30px;
 	width: 60vw;
 	margin-left: 10vw;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
 .items{
+	margin-top: 40px;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	width: 280px;
 }
 .items img{
 	width: 62px;
@@ -122,11 +125,9 @@ ul li{
 	color: #828282;
 }
 .projects{
-	border: 3px solid cyan;
-	height: 50vh;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 .project-text{
 	margin-top: 150px;
@@ -136,7 +137,55 @@ ul li{
 	color: #F9F9F9;
 }
 .project{
-	width: 25vw;
-	height: 150px;
-	border: 2px solid red;
+	margin-top: 40px;
+	width: 450px;
+	height: 250px;
+	background-color: #212121;
 }
+.project h4{
+	font-size: 2vh;
+	color: #FFFFFF;
+	font-weight: 500;
+}
+.project p{
+	font-size: 1.5vh;
+	font-weight: 400;
+	color: #828282;
+}
+.skills-text{
+	margin-top: 130px;
+	text-align: center;
+}
+.skills{
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.skills div{
+	margin-top: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #212121;
+	width: 120px;
+	height: 120px;
+}
+footer{
+	margin-top: 200px;
+	position: absolute;
+	left: 0;
+	background-color: #212121;
+	height: 50px;
+	width: 100%;
+}
+footer h3{
+	font-size: 1.7vh;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 13px;
+}
+footer h3 span{
+	color: #00DF5E;
+}
+/*git remote add origin https://github.com/NormaN5001/Portfolio.git*/
