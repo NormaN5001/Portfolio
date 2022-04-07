@@ -7,6 +7,7 @@
 	list-style: none;
 	font-family: 'DM Sans', sans-serif;
 	text-decoration: none;
+	scroll-behavior: smooth;
 }
 body{
 	background-color: #0C0C0C;
@@ -51,24 +52,24 @@ ul li{
 .download{
 	margin-top: 30px;
 	background-color: #00DF5E;
-	width: 10vw;
+	width: 150px;
 	height: 42px;
 	border-style: none;
 	color: #171717;
 	font-weight: 700;
-	font-size: 1.5vh;
+	font-size: 1rem;
 }
 .contact{
 	margin-top: 30px;
 	margin-left: 10px;
 	background-color: #171717;
-	width: 7vw;
+	width: 100px;
 	height: 42px;
 	border-style: none;
 	border: 1px solid #333333;
 	color: #F9F9F9;
 	font-weight: 500;
-	font-size: 1.3vh;
+	font-size: 1rem;
 }
 .presentation img{
 	position: absolute;
@@ -139,8 +140,19 @@ ul li{
 .project{
 	margin-top: 40px;
 	width: 450px;
-	height: 250px;
+	height: 265px;
 	background-color: #212121;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.project img{
+	width: 400px;
+	transition: 0.8s;
+}
+.project img:hover{
+	width: 450px;
 }
 .project h4{
 	font-size: 2vh;
@@ -187,5 +199,24 @@ footer h3{
 }
 footer h3 span{
 	color: #00DF5E;
+}
+
+@media(max-width: 768px){
+	header{
+		justify-content: center;
+	}
+	header p{
+		font-size: 5vh;
+	}
+	.nav-pc{
+		display: none;
+	}
+	.presentation img{
+		display: none;
+	}
+	.skills div{
+		width: 150px;
+		height: 150px;
+	}
 }
 /*git remote add origin https://github.com/NormaN5001/Portfolio.git*/
