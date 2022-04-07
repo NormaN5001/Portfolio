@@ -214,6 +214,16 @@ footer h3 span{
 	.presentation img{
 		display: none;
 	}
+	.project{
+		width: 350px;
+		height: 210px;
+	}
+	.project img{
+		width: 300px;
+	}
+	.project img:hover{
+		width: 350px;
+	}
 	.skills div{
 		width: 150px;
 		height: 150px;
