@@ -28,11 +28,25 @@ ul{
 	display: flex;
 }
 ul li{
+	position: relative;
+	letter-spacing: 0.5px;
 	margin-left: 70px;
 	font-size: 2vh;
 	font-weight: 400;
 	color: #F9F9F9;
-	transition: 1.3s ease-in-out;
+}
+ul li:after{
+	content: "";
+	position: absolute;
+	background-color: #00DF5E;
+	height: 3px;
+	width: 0%;
+	left: 0;
+	bottom: -5px;
+	transition: 0.4s;
+}
+ul li:hover:after{
+	width: 100%;
 }
 .presentation{
 	position: relative;
