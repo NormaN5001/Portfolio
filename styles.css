@@ -32,6 +32,7 @@ ul li{
 	font-size: 2vh;
 	font-weight: 400;
 	color: #F9F9F9;
+	transition: 1.3s ease-in-out;
 }
 .presentation{
 	position: relative;
@@ -49,15 +50,16 @@ ul li{
 	font-weight: 500;
 	color: #828282;
 }
-.download{
+.github{
 	margin-top: 30px;
 	background-color: #00DF5E;
-	width: 150px;
+	width: 130px;
 	height: 42px;
 	border-style: none;
 	color: #171717;
 	font-weight: 700;
 	font-size: 1rem;
+	cursor: pointer;
 }
 .contact{
 	margin-top: 30px;
@@ -70,6 +72,7 @@ ul li{
 	color: #F9F9F9;
 	font-weight: 500;
 	font-size: 1rem;
+	cursor: pointer;
 }
 .presentation img{
 	position: absolute;
